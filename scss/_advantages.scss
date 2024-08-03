@@ -1,0 +1,96 @@
+.advantages {
+  height: 800px;
+  @media screen and (min-width: 600px) {
+    height: 700px;
+  }
+  @media screen and (min-width: 1000px) {
+    height: 450px;
+  }
+
+  .container {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 1000px) {
+      flex-direction: row;
+    }
+    @media screen and (min-width: 1000px) {
+      align-items: center;
+    }
+    @media screen and (min-width: 1000px) {
+      width: 960px;
+      margin: 0 auto;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 1140px;
+      margin: 0 auto;
+    }
+    .img {
+      h2 {
+        text-align: center;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 20px 0;
+        font-family: "Arial Bold";
+        text-transform: uppercase;
+        @media screen and (min-width: 1000px) {
+          text-align: left;
+        }
+      }
+      img {
+        width: 100%;
+        @media screen and (min-width: 800px) {
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          width: 456px;
+          height: 316px;
+        }
+      }
+    }
+    .text {
+      @media screen and (min-width: 1000px) {
+        display: flex;
+        align-items: end;
+        height: 100%;
+      }
+      p {
+        font-weight: 400;
+        line-height: 24px;
+        height: 184px;
+        color: #000000;
+        font-family: "Arial Regular";
+        font-size: 14px;
+        margin-bottom: 200px;
+        margin-top: 30px;
+        @media screen and (min-width: 600px) {
+          margin-bottom: 16px;
+          font-size: 14px;
+        }
+        @media screen and (min-width: 800px) {
+          width: 537px;
+          margin-top: 30px;
+          margin-left: 70px;
+          font-size: 16px;
+        }
+        @media screen and (min-width: 1000px) {
+          width: 437px;
+          margin-top: 0;
+          margin-left: 30px;
+          margin-bottom: 0;
+          height: auto;
+        }
+        @media screen and (min-width: 1200px) {
+          height: 184px;
+          margin-left: 70px;
+          margin-top: 40px;
+        }
+        @media screen and (min-width: 1400px) {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

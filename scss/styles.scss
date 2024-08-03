@@ -1,0 +1,19 @@
+@import "nav";
+@import "header";
+@import "offer";
+@import "advantages";
+@import "tours";
+@import "footer";
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: "Arial Bold";
+}
+
+* {
+  margin: 0;
+  font-family: "Arial Bold", Helvetica, sans-serif;
+}
