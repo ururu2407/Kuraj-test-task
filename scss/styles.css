@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index: 1000;
+  z-index: 100;
   background-color: #fbd341;
 }
 @media screen and (min-width: 1000px) {
@@ -151,7 +151,7 @@
 .nav-btn {
   font-size: 35px;
   position: relative;
-  z-index: 2;
+  z-index: 101;
   color: #fbd341;
   margin-right: 20px;
   margin-top: 30px;
@@ -270,7 +270,7 @@ header .header-cta {
   width: 300px;
   height: 228px;
   bottom: 100px;
-  z-index: 20;
+  z-index: 1;
   background-color: rgba(0, 76, 132, 0.49);
 }
 @media screen and (min-width: 450px) {
@@ -476,7 +476,7 @@ header .header-cta_btn a {
 .offers .tabs .offer-slider_controls .offer-slider_arrow {
   top: -120px;
   position: absolute;
-  z-index: 99;
+  z-index: 1;
   cursor: pointer;
 }
 .offers .tabs .offer-slider_controls .offer-slider_arrow--left {
